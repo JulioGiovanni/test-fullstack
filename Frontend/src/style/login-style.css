@@ -1,0 +1,89 @@
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 5px;
+    align-items: center;
+    max-width: 600px;
+  }
+  .card-verification{
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: 0.3s;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 5px;
+    align-items: center;
+    max-width: 450px;
+  }
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+
+  .container{
+    display: flex;
+    justify-content: center;
+  }
+
+  .center{
+    position: absolute;
+    top: 20%;
+
+  }
+
+.span-background{ 
+  background-color: white;
+}
+
+.linea {
+  margin:0px 20px;
+  width:100px;    
+  border-top:1px solid #999;
+  position: relative;
+  top:10px;
+  float:left;
+  }
+
+.leyenda {
+  font-weight:normal;
+  float:left;
+ }
+
+ .error{
+  color: #bf1650;
+}
+
+.error::before {
+  display: inline;
+  content: "⚠ ";
+}
+
+.verification{
+  background-color: #7A8BD5 !important ;
+  color:white;
+}
+
+.inputs{
+  display:flex;
+  align-items:center;
+  justify-content: space-evenly;
+}
+
+.input-verify{ 
+  width:50px;
+  height:70px;
+}
+.errors{ 
+padding:40px;
+  width:450px;
+  height: 30px;
+}
+.errors-text{
+  background-color:#ff7676;
+  color: white;
+}
